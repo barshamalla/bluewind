@@ -1,0 +1,72 @@
+body {
+  font-family: "Open Sans", sans-serif;  
+}
+
+h1, h2, h3,.card-body>h5 {
+  font-family: "Lobster", cursive;
+}
+h1{
+  color: rgb(42, 227, 240);
+}
+
+.card-img-overlay h5 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
+
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0;
+}
+
+.jumbotron {
+  height: auto;
+  margin: 0;
+  /* padding: 30px; */
+  background-image: url("/assets/images/beach.jpg");
+  background-size: cover;
+  /*linear-gradient(to right, #e1d8f0, #9664a0, #28106b); */
+}
+
+.jumbotron h2 {
+  color: rgb(42, 227, 240);
+  
+}
+
+.navbar-dark {
+  background-color: #28106b;
+  
+ 
+}
+.page-enter {
+  
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: 300ms ease-out;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: 300ms ease-in;
+}
+  
+
+    
+  
+
+ 
